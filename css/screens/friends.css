@@ -5,6 +5,7 @@
   padding: 15px 0px;
   font-size: 16px;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #friends-display-link i {
@@ -26,8 +27,4 @@
   justify-content: space-between;
   margin-bottom: 30px;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.friends-screen__channel-header i {
-  margin-right: 20px;
 }
