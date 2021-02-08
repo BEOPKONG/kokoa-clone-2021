@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      body {
-        height: 100vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
       div {
-        width: 33%;
-        height: 50px;
-        background-color: tomato;
+        position: fixed;
       }
-      div span {
-        background-color: black;
+      .sibal1 {
+        background-color: antiquewhite;
+        z-index: 3;
+      }
+
+      .sibal2 {
+        background-color: tomato;
+        z-index: 2;
+      }
+
+      .sibal3 {
+        background-color: blue;
+        z-index: 1;
       }
     </style>
   </head>
   <body>
-    <div></div>
-    <div><span>asdasd</span><span>req3rr</span></div>
+    <div class="sibal1">d</div>
+    <div class="sibal2">d</div>
+    <div class="sibal3">d</div>
   </body>
 </html>
